@@ -1,0 +1,224 @@
+/* =========================
+ESTILOS GENERALES
+========================= */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f6fa;
+}
+
+.app {
+  padding: 30px;
+}
+
+/* =========================
+CATALOGO
+========================= */
+
+.catalog {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.catalog-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.catalog-header h1 {
+  font-size: 28px;
+}
+
+/* =========================
+BARRA DE BUSQUEDA
+========================= */
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.clear-button {
+  padding: 10px 14px;
+  border: none;
+  background: #e74c3c;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* =========================
+CONTROLES
+========================= */
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* =========================
+FILTROS
+========================= */
+
+.filter-panel {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.btn-clear {
+  padding: 8px 12px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* =========================
+ORDENAMIENTO
+========================= */
+
+.sort-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* =========================
+LISTA DE ITEMS
+========================= */
+
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* =========================
+TARJETAS
+========================= */
+
+.item-card {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.item-card h3 {
+  margin-top: 0;
+}
+
+/* =========================
+BADGES
+========================= */
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  font-size: 12px;
+  background: #eee;
+}
+
+/* =========================
+PRECIO Y RATING
+========================= */
+
+.price {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.rating {
+  font-size: 14px;
+}
+
+/* =========================
+ESTADO
+========================= */
+
+.status {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.available {
+  color: #2ecc71;
+}
+
+.unavailable {
+  color: #e74c3c;
+}
+
+/* =========================
+ACCIONES
+========================= */
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: #3498db;
+  color: white;
+}
+
+.actions button:last-child {
+  background: #e74c3c;
+  color: white;
+}
+
+/* =========================
+EMPTY STATE
+========================= */
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+}
+
+.empty-state .icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* =========================
+RESULTADOS
+========================= */
+
+.results-count {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
